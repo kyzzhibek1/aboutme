@@ -1,0 +1,110 @@
+html {
+    background: linear-gradient(to bottom, #FFB6C1, #87CEEB);
+    padding: 40px;
+}
+header {
+    background: linear-gradient(to bottom, #FFB6C1, #87CEEB); /* Пастельный градиент */
+    color: #ffffff;
+    text-align: center;
+    text-shadow: #333 20%;
+    padding: 0%;
+    font-family: 'Impact', sans-serif; 
+}
+
+
+
+.about-me {
+    border-radius: 16px;
+    text-align: center; 
+    font-size: 22px;
+    font-style: oblique;
+}
+
+.about-me img {
+    max-width: 50%; 
+    border: 10px solid #fff; 
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.My.skills {
+    background: linear-gradient(to bottom, #FFB6C1, #87CEEB);
+    color: #ffffff;
+    text-align: left;
+    text-shadow: #ffffff 20%;
+    padding: 10px;
+    font-family: 'Impact', sans-serif;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+.skills li {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px; 
+}
+
+.skills i {
+    font-size: 26px;
+    margin-right: 5px; 
+}
+
+.skills a {
+    background: linear-gradient(to bottom, #7bacfa, #65da36);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.skills a:hover {
+    background: linear-gradient(to bottom, #8761e6, #fa7bda);
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.social-media {
+    margin-top: 40px;
+}
+
+.social-media h2 {
+    background: linear-gradient(to bottom, #FFB6C1, #87CEEB); /* Пастельный градиент */
+    color: #ffffff;
+    text-align: left;
+    text-shadow: #333 20%;
+    padding: 0%;
+    font-family: 'Impact', sans-serif; 
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-media li {
+    margin-bottom: 10px;
+}
+
+.social-media a {
+    background: linear-gradient(to bottom, #fa7bda, #8761e6); 
+    text-decoration: none; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    transition: background 0.3s; 
+    margin-right: 10px;
+}
+
+.social-media a:hover {
+    background: linear-gradient(to bottom, #8761e6, #fa7bda); 
+    text-decoration: none;
+    color: #fff; 
+}
